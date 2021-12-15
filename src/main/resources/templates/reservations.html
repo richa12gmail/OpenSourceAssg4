@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<table>
+		<tr>
+			<td>Room Name</td>
+			<td>Room Number</td>
+			<td>Date</td>
+		</tr>
+		<tr th:each="roomReservation: ${roomReservations}">
+			<td th:text="${roomReservation.roomName}"></td>	
+			<td th:text="${roomReservation.roomNumber}"></td>
+			<td th:text="${roomReservation.date}">date</td>			
+		</tr>
+	</table>
+</body>
+</html>
