@@ -7,8 +7,8 @@ public class RoomReservation {
     private long guestId;
     private String roomNumber;
     private String roomName;
+    private String fullName;
     private String firstName;
-    private String lastName;
     private Date date;
 
     public long getRoomId() {
@@ -43,20 +43,12 @@ public class RoomReservation {
         this.roomNumber = roomNumber;
     }
 
-    public String getFirstName() {
-        return firstName;
+    public String getFullName() {
+        return fullName;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
     }
 
     public Date getDate() {
