@@ -1,5 +1,6 @@
 Changes  | Version
 ------------- | -------------
+Adding repositories | 1.0.4
 Adding Entities class   | 1.0.3
 Adding dateutils class  | 1.0.2
 Adding main class  | 1.0.1
