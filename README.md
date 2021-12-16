@@ -1,6 +1,7 @@
 Changes  | Version
 ------------- | -------------
 
+Added attribute in ReservationService | 1.0.7
 Added Room Reservation | 1.0.6
 Added Reservation Service | 1.0.5
 Adding repositories | 1.0.4
