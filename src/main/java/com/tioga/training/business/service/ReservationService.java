@@ -1,5 +1,10 @@
 package com.tioga.training.business.service;
 
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+import com.tioga.training.business.domain.RoomReservation;
 import com.tioga.training.data.repository.GuestRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -14,8 +19,6 @@ private final RoomRepository roomRepository;
 
 private final ReservationRepository reservationRepository;
 
-
-
 private final GuestRepository guestRepository;
 
   @Autowired
@@ -25,6 +28,9 @@ private final GuestRepository guestRepository;
     this.reservationRepository = reservationRepository;
 
   }
-
+    public List<RoomReservation> getRoomReservationsForDate(Date date){
+        List<RoomReservation> roomReservations = new ArrayList<>();
+        return roomReservations;
+    }
 
 }
