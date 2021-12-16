@@ -1,5 +1,7 @@
 Changes  | Version
 ------------- | -------------
+Adding RoomReservation | 1.0.6
+Adding RoomReservation | 1.0.5
 Adding repositories | 1.0.4
 Adding Entities class   | 1.0.3
 Adding dateutils class  | 1.0.2
