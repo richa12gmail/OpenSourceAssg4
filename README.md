@@ -1,5 +1,7 @@
 Changes  | Version
 ------------- | -------------
+
+Added Room Reservation | 1.0.6
 Added Reservation Service | 1.0.5
 Adding repositories | 1.0.4
 Adding Entities class   | 1.0.3
